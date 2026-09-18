@@ -35,29 +35,7 @@ O PDF oficial apresenta três etapas. Para permitir entregas separadas, o projet
 
 Essa divisão não altera o escopo do professor; apenas separa a implementação em entregas acumulativas.
 
-## 3. Estrutura do repositório
 
-```text
-movimentador-contas-rastreabilidade/
-├── README.md
-├── scripts/
-│   ├── 01_setup_database.sql
-│   ├── 02_seed_data.sql
-│   ├── 03_security_rbac.sql
-│   ├── 04_audit_setup.sql
-│   ├── 05_attack_simulation.sql
-│   └── 06_forensic_queries.sql
-├── docs/
-│   ├── RELATORIO_ETAPA_1.md
-│   ├── RELATORIO_ETAPA_2.md
-│   ├── RELATORIO_ETAPA_3.md
-│   ├── RELATORIO_ETAPA_4.md
-│   ├── GUIA_APRESENTACAO_SIMPLES.md
-│   ├── README_ETAPA_2.md
-│   └── README_ETAPA_3.md
-└── evidencias/
-    └── README.md
-```
 
 ## 4. Pré-requisitos
 
@@ -267,16 +245,8 @@ Após `02_seed_data.sql`:
 
 Após `05_attack_simulation.sql`, cada execução acrescenta uma nova conta de teste, uma movimentação válida e um comentário. A auditoria registra a criação administrativa da conta, a inserção da movimentação e a atualização operacional da conta.
 
-## 16. Documentação de apoio
 
-- `docs/RELATORIO_ETAPA_1.md`: modelagem e carga;
-- `docs/RELATORIO_ETAPA_2.md`: RBAC, SCRAM e LGPD;
-- `docs/RELATORIO_ETAPA_3.md`: auditoria e triggers;
-- `docs/RELATORIO_ETAPA_4.md`: testes, perícia e apresentação;
-- `docs/GUIA_APRESENTACAO_SIMPLES.md`: roteiro curto de fala e demonstração;
-- `evidencias/README.md`: comandos e checklist de coleta.
-
-## 17. Checklist final
+## 16. Checklist final
 
 - [ ] preencher o nome da instituição;
 - [ ] executar os scripts de 01 a 06 na ordem;
